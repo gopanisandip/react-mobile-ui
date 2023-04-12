@@ -1,0 +1,14 @@
+.App{
+    .footer {
+        display: flex;
+        border-top: $cmn-light-border;
+        justify-content: space-between;
+        padding: 30px 50px;
+        margin-top: 50px;
+        @media(max-width:$x-small) {
+            padding: 18px 26px;
+            margin-top: 26px;
+        }
+
+    }
+}

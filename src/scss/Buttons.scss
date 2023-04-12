@@ -1,0 +1,45 @@
+.App{
+    .cmn-theme-btn {
+        min-height: 90px;
+        min-width: 142px;
+        font-size: 26px;
+        font-weight: 600;
+        background-color: $light-sky-bg;
+        color: $header-bg;
+        border-radius: 12px;
+        border: 2px solid $transparent-bg;
+        font-family: $body-font;
+
+        @media(max-width:$x-small) {
+            font-size: 16px;
+            min-height: 50px;
+            min-width: 76px;
+        }
+
+        &.active {
+            background-color: $transparent-bg;
+            border: 2px solid $theme-dark-grey;
+        }
+
+        &.plain-btn {
+            background-color: $transparent-bg;
+        }
+
+        &.m-width {
+            width: 240px;
+            @media(max-width:$x-small) {
+                width: 140px;
+            }
+        }
+
+        &.primary-btn {
+            background-color: $primary-color;
+            color: #ffffff
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+    }
+}
